@@ -229,13 +229,6 @@ img {
   border-style: none;
 }
 
-.hero,
-[data-aos],
-img {
-  will-change: transform, opacity;
-  backface-visibility: hidden;
-}
-
 table {
   border-collapse: collapse;
 }
@@ -11255,28 +11248,28 @@ textarea.form-control {
 @media (max-width: 768px) {
   .about-section {
     padding: 3rem 1rem;
-    height: 1100px;
+    height: 1150px;
   }
 
   .about-content {
     padding-left: 0;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
   }
 
   .about-content h2 {
     font-size: 28px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .about-content p {
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .social-links {
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 50px;
   }
 }
 
